@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+
+    </head>
+        <link rel='stylesheet' href='./static/stylesheet.css'>
+        <script src='./static/scripts.js'></script>
+    <body>
+        
+        <div style="padding-left:16px">
+            <h2> Predicting Flight Delays from NYC </h2>
+        </div>
+
+          
+        <!-- dropdown for day of the week -->
+            <form method="POST" name="form1" id="form1" action="/predict">
+                Day <select name="subject" id="subject">
+                    {% for value in list_day %}
+                    <option value="" selected="selected">{{value}}</option>
+                    {% endfor %}
+                  </select>
+                  <br><br>
+                Carrier <select name="topic" id="topic">
+                    {% for value in list_carrier %}
+                    <option value="" selected="selected">{{value}}</option>
+                    {% endfor %}
+                  </select>
+                  <br><br>
+                Origin <select name="chapter" id="chapter">
+                    {% for value in list_origin %}
+                    <option value="" selected="selected">{{value}}</option>
+                    {% endfor %}
+                  </select>
+                Destination <select name="chapter" id="chapter">
+                    {% for value in list_destination %}
+                    <option value="" selected="selected">{{value}}</option>
+                    {% endfor %}
+                </select>
+                  <br><br>
+                  <input type="submit" value="Submit">  
+            </form>
+
+          <p>
+              {{pred_str}}
+          </p>
+    </body>
+
+</html>
