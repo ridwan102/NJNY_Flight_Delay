@@ -3,7 +3,7 @@
 ### Predicting Departure Delays during the summer travel months from La Guardia, John F. Kenney, and Newark International Airports
 
 #### Presentation Link: [YouTube](https://www.youtube.com/watch?v=MNy65IYIx24&t=13s)
-### Tableau Dashboard: [Tableau](https://public.tableau.com/profile/ridwan8717#!/vizhome/DepartureDelays_16038881216180/Dashboard1?publish=yes)
+#### Tableau Dashboard: [Tableau](https://public.tableau.com/profile/ridwan8717#!/vizhome/DepartureDelays_16038881216180/Dashboard1?publish=yes)
 
 
 #### Back story:
