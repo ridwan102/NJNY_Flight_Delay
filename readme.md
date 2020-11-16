@@ -3,10 +3,12 @@
 ### Predicting Departure Delays during the summer travel months from La Guardia, John F. Kenney, and Newark International Airports
 
 #### Presentation Link: [YouTube](https://www.youtube.com/watch?v=MNy65IYIx24&t=13s)
+### Tableau Dashboard: [Tableau](https://public.tableau.com/profile/ridwan8717#!/vizhome/DepartureDelays_16038881216180/Dashboard1?publish=yes)
+
 
 #### Back story:
 
-Using data from the Bureau of Transportation Statistics (BTS) for the summer months of 2019 (June, July, and August) from La Guardia, John F. Kennedy, and Newark International Airports, a model will be created using supervised learning techniques to better understand flight departure delays from New York City area airports. The findings visualization was represented in Tableau that can be found at this link: [Tableau](https://public.tableau.com/profile/ridwan8717#!/vizhome/DepartureDelays_16038881216180/Dashboard1?publish=yes)
+Using data from the Bureau of Transportation Statistics (BTS) for the summer months of 2019 (June, July, and August) from La Guardia, John F. Kennedy, and Newark International Airports, a model will be created using supervised learning techniques to better understand flight departure delays from New York City area airports. 
 
 ![Tableau](./images/tableau_viz.png)
 
